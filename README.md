@@ -11,7 +11,8 @@ Este projeto consiste em um script Python que cria uma planilha Excel chamada `N
 - Salvamento da planilha no diretório atual como `Notas.xlsx`.
 
 ## Instalação
- ``bash
+
+bash
 pip install openpyxl
 
 ## Requisitos
