@@ -22,7 +22,7 @@ def criar_plan():
     
     for row in data:
         sheet.append(row)
-            
+    
     for col in sheet.columns:
         max_length = 0
         column = col[0].column_letter
@@ -35,6 +35,11 @@ def criar_plan():
             adjusted_width = max_length + 2 
             sheet.column_dimensions[column].width = adjusted_width
         
+    number_format = '0.0'
+    
+    for row in sheet.iter_rows(min_row=2, max_row=8,min_col=2, max_col=5):
+        for cell in row:
+            cell.number_format = number_format
             
     wb.save('Notas.xlsx')
 
