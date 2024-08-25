@@ -17,3 +17,7 @@ def criar_plan(Notas):
         ['Sistemas Hidráulicos e pneumáticos', '-','-','-','-',]
     ]
 
+
+    for row in data:
+        sheet.append(row)
+        
