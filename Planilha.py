@@ -1,6 +1,7 @@
 from openpyxl import Workbook
 from openpyxl.styles import Alignment, Border,Font,Side
 from openpyxl.formatting.rule import CellIsRule
+import os
 
 def criar_plan():
     
@@ -44,3 +45,5 @@ def criar_plan():
     wb.save('Notas.xlsx')
 
 criar_plan()
+
+os.startfile('Notas.xlsx')
