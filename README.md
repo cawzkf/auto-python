@@ -23,7 +23,7 @@ Este script cria uma planilha Excel com informações sobre disciplinas e notas.
 
   python Planilha.py
 
-### 2. 'Tarefas.py'
+### 2. `Tarefas.py`
 
 Este script abre um arquivo HTML no navegador Opera GX.
 
